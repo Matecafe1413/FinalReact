@@ -1,0 +1,315 @@
+
+/*CSS GLOBAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5; 
+}
+
+main {
+  background-color: #f5f5f5; 
+  color: #7201a8; 
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  width: 85vw; 
+  height: 75vh; 
+  text-align: center;
+  margin: 1rem;
+  align-items: center; 
+
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+  background-color: #f5f5f5; 
+  padding: 1rem;
+  border-radius: 25px;
+  
+}
+
+nav a {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  color: #7201a8; 
+  border-radius: 50%; 
+  font-size: 1.5rem; 
+}
+
+
+/*--------->  CSS Header*/
+
+
+.header{
+  
+  width: 100%;
+  padding: 1rem 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  color: #7201a8; 
+  align-self: center;
+  text-align: center;
+  margin: 1rem;
+
+
+}
+
+h1{
+  color: #7201a8; 
+  font-size: 1.7rem;
+  text-align: center;
+
+
+}
+
+/*--------->  CSS Form*/
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f5f5f5; 
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  width: 100%; 
+  text-align: center;
+  margin: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+}
+
+form * {
+  outline: none;
+  
+}
+
+form input {
+  width: 50%;
+  padding: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  color: #7201a8; 
+  align-self: center;
+  text-align: center;
+}
+
+p {
+  padding: 1rem;
+  color: #7201a8; 
+}
+
+form:last-child {
+  width: 100%;
+  
+}
+
+
+.botonCotizar{
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  color: #7201a8; 
+  width: 150px;
+  height: 40px;
+  align-self: center;
+  justify-self: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+  
+}
+
+.botonCotizar:hover {
+  background-color: #7201a8; 
+  color: #f5f5f5; 
+}
+
+/*--------->  CSS Opciones*/
+
+
+.formText{
+  color: #7201a8; 
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+
+
+
+}
+.formOption{
+  
+  color: #7201a8; 
+  font-size: 1rem;
+
+}
+
+
+.ubicacion{
+  color: #7201a8; 
+
+}
+
+.opcionesBox{
+  width: 50%;
+  padding: 1rem 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  color: #7201a8; 
+  align-self: center;
+  text-align: left;
+}
+
+.opciones{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+/*--------->  CSS GUARDAR*/
+
+
+.icono-guardar{
+  color: #f5f5f5; 
+width: 50px;
+font-size: 2rem;
+}
+
+
+.boton-guardar {
+  
+  background-color: #7201a8; 
+  height: 2.5rem; 
+  text-transform: uppercase;
+  font-weight: 1500;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto; 
+  
+}
+
+.boton-guardar span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  
+}
+
+
+/*--------->  CSS PRECIO FINAL*/
+
+
+.precioFinalContainer{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  
+  width: 100%;
+  padding: 1rem 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  background-color: #7201a8; 
+  align-self: center;
+  text-align: center;
+  margin: 1rem;
+  color: white;
+
+}
+
+
+.precioFinal{
+  text-align: center;
+  font-size: 1rem;
+  color: white
+}
+
+/*--------->  CSS HISTORIAL*/
+
+
+.historialBoton{
+  color: #7201a8; /* Violeta */
+  width: 50px;
+  font-size: 2rem;
+
+}
+
+.historialLink{
+  color: #7201a8; /* Violeta */
+  width: 50px;
+  font-size: 2rem;
+
+}
+
+
+.titulosHistorial{
+
+  color: #7201a8; /* Violeta */
+  width: 50px;
+  font-size: 1rem;
+   text-align: center;
+  
+}
+
+.historial-container{
+
+  padding: 1rem;
+  border: 2px solid #7201a8; 
+  border-radius: 25px;
+  margin-top: 2rem;
+  
+}
+
+.historial-titulos, .historial-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  text-align: center;
+  color: #7201a8; 
+  
+column-gap: 0.1rem;
+
+}
+
+.historial-titulos{
+  font-weight: bold;
+}
+
+
+
+.datosHistorial{
+
+  color: #7201a8; /* Violeta */
+  width: 50px;
+  font-size: 1rem;
+   text-align: center;
+  
+}
+
